@@ -1,6 +1,6 @@
 var button = document.getElementById("button");
+counter = 0;
 button.onClick = function(){
-    counter = 0;
     counter=counter+1;
     var span =document.getElementById("count");
     span.innerHTML=counter.toString();
